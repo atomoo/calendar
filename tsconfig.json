@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "es2018",
+        "allowJs": false,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "lib": [
+            "dom"
+        ],
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "strict": true,
+        "noUnusedLocals": false,
+        "noFallthroughCasesInSwitch": true,
+        "jsx": "react"
+    },
+    "include": [
+        "lib/**/*",
+        "example/**/*"
+    ]
+}
