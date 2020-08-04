@@ -14,6 +14,9 @@ module.exports = {
                 loader: 'ts-loader',
                 exclude: /node_modules/,
             },
+            {
+                test: /\.css$/,
+            },
         ],
     },
     devtool: 'cheap-module-eval-source-map',
@@ -26,6 +29,7 @@ module.exports = {
         headers: {
             'Access-Control-Allow-Origin': '*',
         },
+        stats: 'minimal',
     },
     plugins: [
         new HtmlWebpackPlugin(

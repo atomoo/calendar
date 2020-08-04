@@ -1,0 +1,9 @@
+.calendarWrapper {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-auto-rows: minmax(28px, auto);
+}
+.dayView {
+    grid-template-columns: repeat(7, 1fr);
+}
